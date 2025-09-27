@@ -1,56 +1,56 @@
 # XianxiaCraft
 
-Плагин для Minecraft, основанный на китайском фэнтезийном жанре, известном как Сянься. Добавляет систему прогрессии, известную как "культивация", а также уникальные предметы и команды. Позволяет игрокам использовать уникальные атакующие, двигательные и защитные способности в зависимости от их прогресса.
+A plugin for Minecraft based on the Chinese fantasy genre known as Xianxia. Adds a progression system known as "cultivation", as well as unique items and commands. Allows players to use unique attacking, movement, and defensive abilities based on their progress.
 
-## Загрузка
+## Download
 
-Дополнительная информация, а также ссылка для загрузки, можно найти здесь: https://www.spigotmc.org/resources/xianxiacraft.112468/
+Additional information, as well as a download link, can be found here: https://www.spigotmc.org/resources/xianxiacraft.112468/
 
-## Предварительные требования
+## Preliminary requirements
 
-Этот плагин разработан для Minecraft 1.19.2. Другие версии не были полностью протестированы.
+This plugin is designed for Minecraft 1.19.2. Other versions have not been fully tested. (In this version, supported in the flesh until 1.28.1)
 
-## Участие в разработке
+## Participation in the development
 
-Пожалуйста, отправляйте все отчеты об ошибках на danielhenderson.codeprojects@gmail.com. Если вы хотите попытаться исправить ошибку самостоятельно, пожалуйста, создайте pull request.
+Please send all bug reports to danielhenderson.codeprojects@gmail.com . Or on oscarbyosa@gmail.com . If you want to try to fix the error yourself, please create a pull request.
 
-## Зависимости
+## Dependencies
 
 ### 1. adventure-api
 
-- **Описание**: Библиотека, используемая для кликабельных ссылок в чате.
-- **Автор**: KyoriPowered
-- **Репозиторий**: [https://github.com/KyoriPowered/adventure]
-- **Версия**: 4.16.0
-- **Лицензия**: MIT License
+- **Description**: A library used for clickable chat links.
+- **Author**: KyoriPowered
+- **Repository**: [https://github.com/KyoriPowered/adventure ]
+- **Version**: 4.16.0
+- **License**: MIT License
 
 ### 2. adventure-platform-bukkit
 
-- **Описание**: Реализации платформы Adventure для серверов и прокси.
-- **Автор**: KyoriPowered
-- **Репозиторий**: [https://github.com/KyoriPowered/adventure-platform]
-- **Версия**: 4.3.2
-- **Лицензия**: MIT License
+- **Description**: Implementations of the Adventure platform for servers and proxies.
+- **Author**: KyoriPowered
+- **Repository**: [https://github.com/KyoriPowered/adventure-platform ]
+- **Version**: 4.3.2
+- **License**: MIT License
 
-### Лицензии сторонних компонентов
+### Licenses for third-party components
 
-- **adventure-api**: Лицензия MIT. Подробности см. в файле [LICENSE](https://github.com/KyoriPowered/adventure/blob/main/4/license.txt) в репозитории.
-- **adventure-platform-bukkit**: Лицензия MIT. Подробности см. в файле [LICENSE](https://github.com/KyoriPowered/adventure-platform/blob/main/license.txt) в репозитории.
+- **adventure-api**: MIT license. For more information, see the [LICENSE] file(https://github.com/KyoriPowered/adventure/blob/main/4/license.txt ) in the repository.
+- **adventure-platform-bukkit**: MIT license. For more information, see the [LICENSE] file(https://github.com/KyoriPowered/adventure-platform/blob/main/license.txt ) in the repository.
 
-## Лицензия
+## License
 
-> **Лицензия:** Этот плагин для Minecraft не выпущен под какой-либо лицензией. Все права защищены. Я даю разрешение владельцам серверов устанавливать плагин на своих серверах.
+> **License:** This plugin for Minecraft is not released under any license. All rights reserved. I give permission to the server owners to install the plugin on their servers.
 
-## Контакты
+## Contacts
 
-Со мной можно связаться по адресу danielhenderson.codeprojects@gmail.com.
+You can contact me at danielhenderson.codeprojects@gmail.com .
 
-## Отказ от ответственности
+## Disclaimer of liability
 
-**Отказ от ответственности:**
+**Disclaimer of liability:**
 
-- Плагин предоставляется без каких-либо гарантий или обязательств.
-- Он не предназначен для модификации без явного разрешения создателя.
-- Создатель не предоставляет техническую поддержку или помощь по установке или использованию этого плагина.
+- The plugin is provided without any guarantees or obligations.
+- It is not intended to be modified without the explicit permission of the creator.
+- The creator does not provide technical support or assistance for installing or using this plugin.
 
-Благодарим за понимание.
+Thank you for your understanding.
