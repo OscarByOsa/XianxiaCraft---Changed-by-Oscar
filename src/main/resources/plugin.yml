@@ -1,0 +1,32 @@
+name: XianxiaCraft
+version: '${project.version}'
+main: xianxiacraft.xianxiacraft.XianxiaCraft
+api-version: 1.20
+commands:
+  qipunch:
+    description: Усиливает ваши удары ци уникальными способами в зависимости от вашего мануала культивации.
+  cultutorial:
+    description: Дает игроку учебную книгу.
+  qimine:
+    description: Усиливает ваше копание ци, позволяя ломать блоки быстрее.
+  qimove:
+    description: Позволяет перемещаться уникальными способами в зависимости от вашего мануала. Тратит ци.
+  addstage:
+    description: Добавляет стадию к культивации пользователя.
+    permission: xianxiacraft.cultivation.addstage
+  checkstats:
+    description: Проверяет статистику культивации игрока.
+  detonate:
+    description: Убивает игрока и устанавливает его ци на 0.
+  obtain:
+    description: Получить предмет, добавленный плагином XianxiaCraft.
+    permission: xianxiacraft.utility.obtain
+  qiaura:
+    description: Дает вам ауру, которая позволяет эффективнее наносить урон существам вокруг.
+  qifly:
+    description: Позволяет летать используя ци.
+  manualaccept:
+    description: Подтверждает смену мануала.
+  dantianscoreboard:
+    description: Управляет интерфейсом даньтяня.
+    usage: /dantianscoreboard <show | hide>

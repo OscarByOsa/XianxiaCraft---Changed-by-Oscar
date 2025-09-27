@@ -1,0 +1,105 @@
+# XianxiaCraft v1.2.0 - Конфигурация
+settings:
+  # Авто-определение ядра сервера
+  auto-detect-core: true
+  preferred-core: "auto"
+  
+  # Основные интервалы обновления (в тиках)
+  qi-update-interval: 60
+  particle-interval: 10
+  aura-update-interval: 5
+  
+  # Настройки оптимизации
+  max-aura-rings: 5
+  max-particles-per-player: 100
+  enable-cache: true
+  
+  # Настройки баланса
+  base-qi-regen: 0.01
+  min-qi-cost: 1
+  max-qi-cost: 100
+
+# Оптимизация для разных ядер
+core-optimization:
+  folia:
+    enabled: true
+    use-regional-scheduler: true
+    async-tasks: true
+    optimal-intervals:
+      qi: 40
+      particles: 5
+      aura: 3
+      
+  purpur:
+    enabled: true  
+    async-tasks: true
+    optimal-intervals:
+      qi: 50
+      particles: 8
+      aura: 4
+      
+  paper:
+    enabled: true
+    async-tasks: true
+    optimal-intervals:
+      qi: 60
+      particles: 10
+      aura: 5
+      
+  spigot:
+    enabled: true
+    async-tasks: false
+    optimal-intervals:
+      qi: 80
+      particles: 15
+      aura: 8
+
+# Сообщения плагина (можно менять)
+messages:
+  # Техники
+  not-enough-qi: "§6Недостаточно ци для использования техники"
+  technique-activated: "§6Техника активирована: %technique%"
+  technique-deactivated: "§6Техника деактивирована: %technique%"
+  
+  # Культивация
+  manual-changed: "§6Мануал изменен на: %manual%"
+  breakthrough-success: "§aПрорыв на следующую стадию!"
+  breakthrough-failed: "§6Требования прорыва не выполнены"
+  
+  # Системные
+  reload-complete: "§aКонфигурация перезагружена"
+  data-saved: "§aДанные сохранены"
+
+# Настройки мануалов (можно добавлять новые)
+manuals:
+  iron_skin:
+    display_name: "Ironskin Manual"
+    attack_per_stage: 7
+    defense_per_stage: 2
+    qi_regen: 0.01
+    
+  phoenix:
+    display_name: "Phoenix Manual"
+    attack_per_stage: 6  
+    defense_per_stage: 4
+    qi_regen: 0.05
+    
+  sugar_fiend:
+    display_name: "Sugar Fiend"
+    attack_per_stage: 5
+    defense_per_stage: 4
+    qi_regen: 0.05
+
+# Отладка и логирование
+debug:
+  enable-debug-mode: false
+  log-qi-updates: false
+  log-aura-activity: false
+  performance-monitoring: true
+
+# Совместимость с версиями
+compatibility:
+  supported-versions: ["1.17", "1.18", "1.19", "1.20", "1.21"]
+  fallback-version: "1.19"
+  legacy-support: true
+  check-updates: true
