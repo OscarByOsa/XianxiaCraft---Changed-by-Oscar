@@ -2,6 +2,8 @@
 
 A plugin for Minecraft based on the Chinese fantasy genre known as Xianxia. Adds a progression system known as "cultivation", as well as unique items and commands. Allows players to use unique attacking, movement, and defensive abilities based on their progress.
 
+OscarByOsa: I'm not comfortable with pulling requests, so I created a separate repository. This will make it easier for me to move files from one device to another.
+
 ## Download
 
 Additional information, as well as a download link, can be found here: https://www.spigotmc.org/resources/xianxiacraft.112468/
