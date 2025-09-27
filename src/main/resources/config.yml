@@ -1,4 +1,4 @@
-# XianxiaCraft v1.2.0 - Конфигурация
+# XianxiaCraft v1.2.0 by OscarByOsa - Конфигурация
 settings:
   # Авто-определение ядра сервера
   auto-detect-core: true
@@ -102,4 +102,5 @@ compatibility:
   supported-versions: ["1.17", "1.18", "1.19", "1.20", "1.21"]
   fallback-version: "1.19"
   legacy-support: true
+
   check-updates: true
